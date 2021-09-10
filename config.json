@@ -1,0 +1,43 @@
+{
+    "Stores":[
+    {
+        "name": "Amazon",
+        "url": "https://www.amazon.com/PlayStation-5-Console/dp/B08FC5L3RG",
+        "xpath": "/html/body/div[1]/div[2]/div[7]/div[6]/div[1]/div[2]/div/div/div/div/div/form/div/div/div[2]/span/span/span/a",
+        "sold_out_attribute": "innerHTML",
+        "sold_out_string": "See All Buying Options",
+        "enabled": true
+    },
+    {
+        "name": "Antoline",
+        "url": "https://www.antonline.com/Sony/Playstation_5",
+        "xpath": "/html/body/div[6]/div[5]/div/div/div[2]/div/div[2]/span",
+        "sold_out_attribute": "innerHTML",
+        "sold_out_string": "Sold Out",
+        "enabled": true
+    },
+    {
+        "name": "Best Buy",
+        "url": "https://www.bestbuy.com/site/playstation-5/playstation-5-packages/pcmcat1588107358954.c?id=pcmcat1588107358954&irclickid=zUQ0rT05bxyIUfc0v2xGjxRzUkBTaWXdxzWO0c0&irgwc=1&ref=198&loc=Narrativ&acampID=0&mpid=376373",
+        "xpath": "/html/body/main/div[1]/div[4]/div/div[6]/div/div/div/div/div/div[2]/div[1]/div/div[2]/div/div/div/div/div/div/div/button",
+        "sold_out_attribute": "innerHTML",
+        "sold_out_string": "Sold Out",
+        "enabled": true
+    },
+    {
+        "name": "Gamestop",
+        "url": "https://www.gamestop.com/consoles-hardware/playstation-5/consoles/products/sony-playstation-5-console/11108140.html?bt=true&condition=New",
+        "xpath": "//*[@id='add-to-cart']",
+        "sold_out_attribute": "innerHTML",
+        "sold_out_string": "Not Available",
+        "enabled": true
+    },
+    {
+        "name": "Target",
+        "url": "https://www.target.com/p/playstation-5-console/-/A-81114595?clkid=5b47bed8N104c11ec9343e99197ede06a&lnm=81938&afid=Future%20PLC.&ref=tgt_adv_xasd0002#lnk=sametab",
+        "xpath": "/html/body/div[1]/div/div[4]/div/div/div[1]/div[1]",
+        "sold_out_attribute": "innerHTML",
+        "sold_out_string": "product not available",
+        "enabled": true
+    }]
+}
